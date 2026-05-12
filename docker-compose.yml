@@ -4,7 +4,7 @@ networks:
 services:
   frontend:
     image: node:latest
-    command: sh -c "yarn --non-interactive && yarn dev"
+    command: sh -c "npm install && npm run dev"
     ports:
       - 5173:5173
     working_dir: /frontend
@@ -42,7 +42,7 @@ services:
         restart: true
 
   db:
-    image: mariadb:latest
+    image: mariadb:lts-ubi9
     restart: always
     networks:
       - instareddit-network
