@@ -8,3 +8,5 @@ We wanted to be able to share video and photos and upload the work to an S3 buck
 Frontend: React + TypeScript + Tailwind
 
 Backend: Django + Djangorestframework for RESTful API + MariaDB for tables for users, accounts, friends, posts, forums. + Redis for chatlogs
+
+Websockets with SocketIO for livetime chat with other online users.
