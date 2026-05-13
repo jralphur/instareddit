@@ -6,4 +6,5 @@ You can create posts, add friends, talk to friends and modify your profile.
 We wanted to be able to share video and photos and upload the work to an S3 bucket, but the free tier actually costs money.
 
 Frontend: React + TypeScript + Tailwind
+
 Backend: Django + Djangorestframework for RESTful API + MariaDB for tables for users, accounts, friends, posts, forums. + Redis for chatlogs
